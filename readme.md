@@ -17,3 +17,7 @@ Navigate to the webpage:
 `http://localhost:8000/`
 
 Tail the log.txt file for viewing the ajax silent submission.
+`tail -f log.txt`
+
+View the data inserted into the SQLite database
+`sqlite hacked_data.db`
