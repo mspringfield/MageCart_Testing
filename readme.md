@@ -2,10 +2,10 @@
 
 ## What Is This?
 
-This is just a very simple application to test magecart silent ajax posting of sensitive data. It is written in php and includes a simple HTML form to reference standard form submission. It also includes javascript that submits the data to silently insert_data.php on the backend.
+This is simple application to test magecart silent AJAX posting of sensitive data. It is written in PHP and includes a simple HTML form to represent standard form submission. It also includes JavaScript that submits the data silently to insert_data.php on the backend.
 
-Upon submission of the form, the form data is posted and reflected back to the
-user. Asynchronously, data is submitted via ajax to insert_data.php -- this
+Upon submission, the form data is posted and reflected back to the
+user. Data is then submitted asynchronously via AJAX to insert_data.php--this
 writes the credit card data to log.txt and inserts it in the sqlite database
 (hacked_data.db). 
 
